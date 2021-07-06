@@ -79,10 +79,21 @@ textarea {
   margin: 0 auto;
 }
 
+.btn {
+  display: block;
+  background: #E89F71;
+  text-align: center;
+  color: #fff;
+  line-height: 150%;
+  outline: none;
+  border: none;
+}
+
 /*header*/
 
 .header {
   padding-top: 40px;
+  background: #F9F1E7;
 }
 
 .header__inner {
@@ -124,6 +135,7 @@ textarea {
   width: 100%;
   padding: 12px 0 12px 44px;
   outline: none;
+  border: none;
 }
 
 .header__search::placeholder {
@@ -177,4 +189,49 @@ textarea {
 
 .cabiner__icon + .cabiner__icon {
   margin-left: 32px;
+}
+
+/*erst-banner*/
+
+.ferst-banner {
+  background: #F9F1E7;
+  padding: 56px 0 80px;
+  position: relative;
+}
+
+.banner {
+  max-width: 494px;
+  width: 100%;
+
+}
+
+.banner__content {
+  width: 100%;
+  background: #fff;
+  padding: 60px;
+}
+
+.banner__content-title {
+  font-size: 56px;
+  line-height: 120%;
+  color: #3A3A3A;
+}
+
+.banner__content-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #898989;
+  margin-bottom: 52px;
+}
+
+.banner__content-btn {
+  max-width: 373px;
+  width: 100%;
+  padding: 24px 10px;
+  font-size: 20px;
+}
+
+.banner__box {
+
 }
