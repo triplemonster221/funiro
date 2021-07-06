@@ -196,6 +196,9 @@ textarea {
 .ferst-banner {
   background: #F9F1E7;
   padding: 56px 0 80px;
+}
+
+.ferst-banner__inner {
   position: relative;
 }
 
@@ -233,5 +236,66 @@ textarea {
 }
 
 .banner__box {
-
+  max-width: 294px;
+  width: 100%;
+  background: #fff;
+  padding: 24px;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
 }
+
+.slick-arrow {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: -745px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.slick-arrow img {
+  z-index: 2;
+}
+
+.slick-next {
+  top: 0;
+  right: -683px;
+  background-color: #fdc8a6;
+}
+
+.slick-prev {
+  background-color: #E89F71;
+}
+
+.slick-dots {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: -120px;
+}
+
+.slick-dots li {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #D8D8D8;;
+}
+
+.slick-dots li button {
+  background: transparent;
+  border: none;
+  font-size: 0;
+}
+
+.slick-dots .slick-active {
+  background-color: #E89F71;
+  border: 1px solid #E89F71;
+}
+
+.slick-dots li + li {
+  margin-left: 20px;
+}
+
