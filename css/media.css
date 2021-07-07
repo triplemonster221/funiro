@@ -79,6 +79,12 @@
 	}
 }
 
+@media screen and (max-width:594px){
+	.tipsslaider__item .slick-dots {
+		right: 18%;
+	}
+}
+
 @media screen and (max-width:520px){
 	.search {
 		display: none;
@@ -91,5 +97,17 @@
 		max-width: 260px;
 		margin: 0 auto;
 	}
-	s 
+	 
+}
+
+@media screen and (max-width:471px){
+	.tipsslaider__item .slick-dots {
+		right: 10%;
+	}
+}
+
+@media screen and (max-width:380px){
+	.tipsslaider__box-wrap {
+    	padding: 16px;
+	}
 }
