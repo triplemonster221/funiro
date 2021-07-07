@@ -257,7 +257,6 @@ textarea {
   background: transparent;
   border: none;
   position: absolute;
-  right: -745px;
   height: 48px;
   width: 48px;
   border-radius: 50%;
@@ -268,17 +267,18 @@ textarea {
   z-index: 2;
 }
 
-.slick-next {
+.banner .slick-next {
   top: 0;
   right: -683px;
   background-color: #fdc8a6;
 }
 
-.slick-prev {
+.banner .slick-prev {
+  right: -745px;
   background-color: #E89F71;
 }
 
-.slick-dots {
+.banner .slick-dots {
   display: flex;
   position: absolute;
   top: 20px;
@@ -537,6 +537,79 @@ textarea {
 .product__btn:hover {
   background: #E89F71;
   color: #fff;
+}
+
+/*tipsslaider*/
+
+.tipsslaider {
+  padding-top: 44px;
+}
+/*
+.tipsslaider__item {
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.tipsslaider__box {
+  width: 391px;
+}
+
+.tipsslaider__box {
+  margin-right: 19px;
+}
+
+.tipsslaider__box-img {
+  width: 100%;
+  height: 251px;
+}
+
+.tipsslaider__box-wrap {
+  padding: 16px 71px 16px 16px;
+}
+
+.tipsslaider__box-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+
+.tipsslaider__box-date {
+  font-size: 14px;
+  color: #898989;
+}
+
+.tipsslaider__item {
+  position: relative;
+}
+
+.tipsslaider__item .slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: -43px;
+  right: 40%;
+  transform: translateX(-40%);
+}
+
+.tipsslaide-left, .tipsslaide-right{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.tipsslaide-left {
+  left: -20px;
+}
+
+.tipsslaide-right {
+  right: 0;
+}
+
+.tipsslaide-right img {
+  transform: rotate(180deg);
 }
 
 
