@@ -25,6 +25,17 @@
 	}
 }
 
+@media screen and (max-width:993px){
+	.proc__inner {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.proc__box {
+		width: 280px;
+		margin-bottom: 20px;
+	}
+}
+
 @media screen and (max-width:870px){
 	.header__list {
 		display: none;
@@ -54,6 +65,17 @@
 	}
 	.banner__box {
 		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width:612px){
+	.mobile__scroll {
+		overflow-x: scroll;
+	}
+
+	.product__list {
+		width: 2500px;
+		flex-wrap: nowrap;
 	}
 }
 
