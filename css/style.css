@@ -62,6 +62,11 @@ a {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Gilroy-Bold',sans-serif;
   font-weight: 700;
+  margin: 0;
+}
+
+P {
+  margin: 0;
 }
 
 h2 {
@@ -299,3 +304,32 @@ textarea {
   margin-left: 20px;
 }
 
+/*proc*/
+
+.proc {
+  padding-top: 88px;
+}
+
+.proc__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proc__box {
+  display: flex;
+}
+
+.proc__box img {
+  margin-right: 25px;
+}
+
+.proc__box-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.proc__box-info {
+  color: #898989;
+}
