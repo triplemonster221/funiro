@@ -353,6 +353,7 @@ textarea {
   position: relative;
   max-width: 285px;
   width: 100%;
+  margin-bottom: 32px;
   cursor: pointer;
   transition: all .3s ease;
 }
@@ -380,6 +381,12 @@ textarea {
   text-align: center;
   padding: 12px 0;
   color: #E89F71;
+  transition: all .3s ease;
+}
+
+.product__list-add:hover {
+  background: #E89F71;
+  color: #fff;
 }
 
 .product__list-special {
@@ -399,6 +406,8 @@ textarea {
   color: #fff;
 }
 
+
+
 .product__list-link::after {
   content: '';
   position: absolute;
@@ -414,6 +423,10 @@ textarea {
 
 .product__list-like::after {
   background: url(../images/like.svg);
+}
+
+.product__list-like.product__list-like--active::after {
+  background: url(../images/likeafter.svg);
 }
 
 .product__list-link {
@@ -506,6 +519,24 @@ textarea {
 
 .product__list-item.product__list-new .product__listNew{
   display: block;
+}
+
+.product__btn {
+  width: 245px;
+  padding: 12px 5px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #E89F71;
+  color: #E89F71;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.product__btn:hover {
+  background: #E89F71;
+  color: #fff;
 }
 
 

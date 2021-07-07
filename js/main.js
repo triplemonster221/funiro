@@ -8,6 +8,11 @@
         nextArrow: '<button type="button" class="right slick-next"><img src="images/Right.svg"></button>',
       });
 
+      $('.product__list-like').on('click',function(e){
+        e.preventDefault();
+        $(this).toggleClass('product__list-like--active')
+      });
+
 
 
     });
