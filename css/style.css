@@ -119,6 +119,7 @@ textarea {
 
 .header__list {
   display: flex;
+  margin-left: 10px;
 }
 
 .header__link {
@@ -144,6 +145,7 @@ textarea {
   padding: 12px 0 12px 44px;
   outline: none;
   border: none;
+  margin-left: 15px;
 }
 
 .header__search::placeholder {
@@ -159,7 +161,7 @@ textarea {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  left: 15px;
+  left: 30px;
   top: 13px;
 }
 
@@ -190,7 +192,7 @@ textarea {
 }
 
 .cabiner {
-  margin-left: 121px;
+  margin-left: 31px;
   display: flex;
   align-items: center;
 }
